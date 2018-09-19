@@ -34,7 +34,7 @@ class App(object):
         action.close(self.package)
 
     def swipe(self, x, y, x1, y1):
-        action.swipe(x, y, x1, y1, 1000)
+        action.swipe(x, y, x1, y1, 500)
 
     def run_no_click(self):
         self.open()
