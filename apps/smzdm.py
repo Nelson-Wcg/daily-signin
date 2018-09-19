@@ -1,4 +1,5 @@
 from app import App
+import time
 
 
 class Smzdm(App):
@@ -12,4 +13,5 @@ class Smzdm(App):
         self.click_my()
         self.sign_in()
         self.click(580, 400)
+        time.sleep(2)
         self.close()

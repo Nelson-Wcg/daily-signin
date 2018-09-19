@@ -28,7 +28,7 @@ class App(object):
         action.click(self.sign_btn_x, self.sign_btn_y)
 
     def sign_in(self):
-        action.click(self.sigin_x, self.sigin_y,3)
+        action.click(self.sigin_x, self.sigin_y, 3)
 
     def close(self):
         action.close(self.package)

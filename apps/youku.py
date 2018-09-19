@@ -10,7 +10,7 @@ class Youku(App):
 
     def run(self):
         self.open()
+        self.back()
         self.click_my()
-        # self.click_sign()
         self.sign_in()
         self.close()
