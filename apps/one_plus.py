@@ -1,14 +1,16 @@
 from app import App
 import time
 
+
 class Oneplus(App):
 
     def __init__(self):
         App.__init__(self, "oneplus", "com.oneplus.bbs", ".ui.activity.PreStartActivity", 400, 720)
-        self.set_sigin(400, 720)
+        self.set_sigin(500, 720)
 
     def run(self):
         self.open()
+        self.click_my()
         self.sign_in()
         self.click(70, 160)
         self.click(940, 720)

@@ -17,8 +17,8 @@ from apps.qiyi import Qiyi
 def sign_in():
     jd = Jd()
     jd.run()
-    jdr = Jdr()
-    jdr.run()
+    # jdr = Jdr()
+    # jdr.run()
     acfun = Acfun()
     acfun.run()
     bilibili = Bilibili()
